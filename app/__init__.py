@@ -1,1 +1,1 @@
-from .operaciones import *  # se refiere a operaciones.py
+from operaciones import *  # se refiere a operaciones.py
