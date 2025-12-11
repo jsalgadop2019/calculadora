@@ -41,13 +41,13 @@ def suma(x, y):
             if len(y.split("/")) > 0:
                 y = float(y.split("/")[0]) / float(y.split("/")[1])
 
-        except:
+        except Exception:
             x = float(x)
             y = float(y)
 
         return x + y
 
-    except:
+    except Exception:
         print("No se puede realizar la operacion :(")
 
 

@@ -33,6 +33,7 @@ jobs:
         run: |
           echo Command 1
           echo Command 2
+      
       # Flake8 Lint steps    
       - name: Check out source repository
         uses: actions/checkout@v4.2.2
@@ -41,6 +42,7 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: "3.11"
+      
       - name: flake8 Lint
         uses: py-actions/flake8@v2
         with:
