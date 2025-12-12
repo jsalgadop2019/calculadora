@@ -28,7 +28,7 @@ def obtener_fracciones(frac_str):
 # y toma cualquier valor y lo convierte a float
 
 
-def suma(x, y):
+def suma_avanzada(x, y):
     # esta funcion realiza la operacion de suma
     # x toma cualquier valor y lo convierte a float
     # y toma cualquier valor y lo convierte a float
@@ -50,6 +50,10 @@ def suma(x, y):
     except Exception:
         print("No se puede realizar la operacion :(")
 
+def suma(a, b):
+    sumando = obtener_fracciones(a)
+    sumador = obtener_fracciones(b)
+    return sumando + sumador
 
 def resta(a, b):
     minuendo = obtener_fracciones(a)
