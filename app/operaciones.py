@@ -79,3 +79,8 @@ def raiz(a, b):
     radicando = obtener_fracciones(a)
     indice = obtener_fracciones(b)
     return radicando ** (1/indice)
+
+def potencia(a, b):
+    base = obtener_fracciones(a)
+    indice = obtener_fracciones(b)
+    return base ** indice
