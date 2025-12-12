@@ -67,4 +67,4 @@ jobs:
       run: |
         # pytest tests/unit/test_buenas_practicas.py -v
         pytest tests/integration/ -v
-        pytest tests/unit/ -v        
+        pytest tests/unit/ -v
