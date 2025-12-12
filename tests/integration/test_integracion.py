@@ -4,7 +4,6 @@ from calculadora.app.operaciones import divide
 from calculadora.app.operaciones import multiplica
 from calculadora.app.operaciones import suma
 from calculadora.app.operaciones import resta
-from calculadora.app.operaciones import resta
 
 
 def test_divide():
