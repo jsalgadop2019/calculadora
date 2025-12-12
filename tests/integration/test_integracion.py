@@ -13,7 +13,7 @@ def test_divide():
 
 
 def obtener_datos_test_integracion():
-    return [(5, 5, 5/4, 3/4, 5), (8, 7/5, 15, 3/8, 137.475)]
+    return [("5", "5", "5/4", "3/4", "5"), ("8", "7/5", "15", "3/8", "137.475")]
 
 
 @pytest.mark.parametrize(
