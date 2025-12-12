@@ -74,3 +74,8 @@ def divide(a, b):
         return dividendo / divisor
     except ZeroDivisionError:
         return "Division entre cero"
+
+def potencia(a, b):
+    base = obtener_fracciones(a)
+    indice = obtener_fracciones(b)
+    return base ** indice
