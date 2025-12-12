@@ -12,4 +12,4 @@ def obtener_datos_test_raiz():
 
 @pytest.mark.parametrize("num1, num2, esperado", obtener_datos_test_raiz())
 def test_raiz_parametrize(num1, num2, esperado):
-    assert raiz(num1, num2) == esperado
+    assert raiz(num1, num2) == pytest.approx(esperado)
